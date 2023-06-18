@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*header*/
+header .header-img{
+    position: relative;
+}
+header .background{
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-txt{
+    
+}
+.header-txt h2{
+    text-align: center;
+    font-size: 35px;
+}
+.header-txt p{
+    text-align: center;
+    padding: 15px 33%;
+    font-size: 14px;
+    color: #A5A3A3;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.ios,
+.mac{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 18px;
+    font-size: 14px;
+    width: 200px;
+    color: #fff;
+    border: none;
+}
+.ios{
+    background-color: #3DBBB7;
+}
+.mac{
+    background-color: #326CCF;
+}
+
+
+/*section "keep track"*/
+.container{
+    text-align: center;
+    padding: 8rem 29rem;
+}
+.container h2{
+    padding: 1.2rem 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+.container p{
+    color: #A5A3A3;
+    font-size: 14px;
+}
