@@ -31,7 +31,7 @@ header .background{
     font-size: 14px;
     color: #A5A3A3;
 }
-.header-btn{
+.btn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,17 +55,98 @@ header .background{
 }
 
 
-/*section "keep track"*/
+/*CONTAINER*/
 .container{
     text-align: center;
-    padding: 8rem 29rem;
+    padding: 8rem 20rem;
 }
 .container h2{
     padding: 1.2rem 0;
     font-size: 28px;
     font-weight: 500;
+    color: #000;
 }
 .container p{
     color: #A5A3A3;
     font-size: 14px;
 }
+
+/*Section qualidades*/
+.computador{
+    display: flex;
+}
+.img-computador img{
+   width: 700px;
+   left: -60px;
+   position: relative;
+}
+.txt-computador{
+    padding: 5rem 18rem 5rem 7rem;
+}
+.txt-computador h3{
+    font-weight: 400;
+    color: #000;
+    font-size: 21px;
+}
+.txt-computador p{
+    color: #A5A3A3;
+    font-size: 15px;
+}
+.qualidades{
+    padding-bottom: 3.2rem;
+}
+
+/*Section Imagem*/
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem img{
+    width: 780px;
+}
+
+/*Section tarfeas*/
+.tarefas{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1380px;
+}
+.tarefa h3{
+    font-weight: 500;
+    padding: 1rem 0;
+    text-align: center;
+}
+.tarefa p{
+    color: #A5A3A3;
+    font-size: 14px;
+    padding: 0 10vh;
+    text-align: center;
+}
+
+/*Section Sociais*/
+.sociais{
+    padding: 6% 5%;
+    text-align: center;
+}
+.sociais img{
+    padding: 5vh;
+}
+
+/*Section clipboard*/
+.clipboard{
+    text-align: center;
+    padding: 0 5vh;
+}
+.clipboard h2{
+    font-size: 25px;
+    color: #000;
+}
+.clipboard p{
+    color: #A5A3A3;
+    padding: 1rem 50vh;
+    padding-bottom: 2rem;
+}
+
+/*Footer*/
