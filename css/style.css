@@ -19,7 +19,10 @@ header .background{
     transform: translate(-50%, -50%);
 }
 .header-txt{
-    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .header-txt h2{
     text-align: center;
@@ -27,7 +30,7 @@ header .background{
 }
 .header-txt p{
     text-align: center;
-    padding: 15px 33%;
+    padding: 15px 20%;
     font-size: 14px;
     color: #A5A3A3;
 }
@@ -35,7 +38,7 @@ header .background{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    padding-top: 4%;
 }
 .ios,
 .mac{
@@ -49,16 +52,18 @@ header .background{
 }
 .ios{
     background-color: #3DBBB7;
+    cursor: pointer;
 }
 .mac{
     background-color: #326CCF;
+    cursor: pointer;
 }
 
 
 /*CONTAINER*/
 .container{
     text-align: center;
-    padding: 8rem 20rem;
+    padding: 6rem 29rem;
 }
 .container h2{
     padding: 1.2rem 0;
@@ -79,6 +84,17 @@ header .background{
    width: 700px;
    left: -60px;
    position: relative;
+}
+.pulse{
+    animation: pulse 1s ;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .txt-computador{
     padding: 5rem 18rem 5rem 7rem;
@@ -148,5 +164,33 @@ header .background{
     padding: 1rem 50vh;
     padding-bottom: 2rem;
 }
+.clipboard-btn{
+    padding-bottom: 15vh;
+}
 
 /*Footer*/
+footer{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    background-color: #cac9c94e;
+}
+.footer-img{
+    padding-right: 4rem;
+    padding-left: 25vh;
+}
+.footer-img img{
+    width: 50px;
+}
+.footer-txt{
+    padding: 0 3rem;
+}
+.footer-txt a{
+    color: #000;
+}
+.footer-txt a::after{
+    color: #000;
+}
+.footer-sociais{
+    padding-left: 20rem;
+}
